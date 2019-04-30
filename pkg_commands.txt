@@ -1,0 +1,13 @@
+$ dpkg -l                           // list packages
+$ apt-cache pkgnames
+$ apt-cache search <programName>
+$ apt-cache showpkg <packageName>     //dependencies
+$ apt-cache stats
+$ sudo apt-get update               //system
+$ sudo apt-get upgrade
+$ sudo apt-get install <packageName> --only-upgrade // only upgrade
+$ sudo apt-get remove <packegeName>
+$ sudo apt-get clean
+$ sudo apt-get check                // search defects
+$ sudo apt-get autoclean            // clean  .deb from /var/cache/apt/archives
+
